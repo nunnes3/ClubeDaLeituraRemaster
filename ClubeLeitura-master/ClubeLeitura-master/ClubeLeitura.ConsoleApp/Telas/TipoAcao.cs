@@ -7,5 +7,14 @@ namespace ClubeLeitura.ConsoleApp.Telas
         Inserindo, Editando
     }
 
-   
+    public enum TipoMensagem
+    {
+        Sucesso, Atencao, Erro
+    }
+
+    public enum TipoVisualizacao
+    {
+        Pesquisando, VisualizandoTela
+    }
+
 }

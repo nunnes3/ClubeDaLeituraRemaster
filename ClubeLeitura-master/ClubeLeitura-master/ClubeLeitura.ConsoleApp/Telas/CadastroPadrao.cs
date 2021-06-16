@@ -10,10 +10,12 @@ namespace ClubeLeitura.ConsoleApp.Telas
 {
     public abstract class  CadastroPadrao<T> : TelaBase where T : EntidadeBase 
     {
+        private string telaNome;
         ControladorBase<T> controladorBase;
 
-        public CadastroPadrao(ControladorBase<T> controlador) : base("")
+        public CadastroPadrao(ControladorBase<T> controlador, string nomeTela) : base(nomeTela)
         {
+            telaNome = nomeTela;
             controladorBase = controlador;
         }
 

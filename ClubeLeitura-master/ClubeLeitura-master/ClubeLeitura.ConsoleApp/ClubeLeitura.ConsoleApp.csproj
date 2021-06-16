@@ -61,8 +61,6 @@
     <Compile Include="Telas\TelaPrincipal.cs" />
     <Compile Include="Telas\TelaRevista.cs" />
     <Compile Include="Telas\TipoAcao.cs" />
-    <Compile Include="Telas\TipoVisualizacao.cs" />
-    <Compile Include="Telas\TipoMensagem.cs" />
     <Compile Include="Testes1.cs" />
     <Compile Include="Testes2.cs" />
   </ItemGroup>

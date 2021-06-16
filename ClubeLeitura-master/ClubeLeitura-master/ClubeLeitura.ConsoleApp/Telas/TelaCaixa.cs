@@ -7,7 +7,7 @@ namespace ClubeLeitura.ConsoleApp.Telas
     public class TelaCaixa : CadastroPadrao<Caixa>,ICadastravel
     {
         private readonly ControladorBase<Caixa> controladorCaixa;
-        public TelaCaixa(ControladorBase<Caixa> controlador) : base(controlador)
+        public TelaCaixa(ControladorBase<Caixa> controlador) : base(controlador, "Cadastro Caixa")
 
         {
             controladorCaixa = controlador;

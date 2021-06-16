@@ -12,7 +12,7 @@ namespace ClubeLeitura.ConsoleApp.Telas
         private readonly ControladorBase<Revista> controladorRevista;
 
         public TelaRevista(ControladorBase<Revista> ctrlRevista, ControladorBase<Caixa> ctrlCaixa, TelaCaixa tlCaixa)
-            : base(ctrlRevista)
+            : base(ctrlRevista, "Cadastro Revista")
         {
             controladorRevista = ctrlRevista;
             telaCaixa = tlCaixa;

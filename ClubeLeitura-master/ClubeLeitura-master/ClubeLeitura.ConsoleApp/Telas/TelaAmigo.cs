@@ -7,7 +7,7 @@ namespace ClubeLeitura.ConsoleApp.Telas
     public class TelaAmigo : CadastroPadrao<Amigo> , ICadastravel
     {
         private readonly ControladorBase<Amigo> controladorAmigo;
-        public TelaAmigo(ControladorBase<Amigo> controlador) : base(controlador)
+        public TelaAmigo(ControladorBase<Amigo> controlador) : base(controlador,"Cadastro Amigo")
         {
             controlador = controlador;
         }
