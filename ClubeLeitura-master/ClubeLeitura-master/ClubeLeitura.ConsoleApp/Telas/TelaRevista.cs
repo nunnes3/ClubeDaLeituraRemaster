@@ -36,8 +36,13 @@ namespace ClubeLeitura.ConsoleApp.Telas
         {
             bool verificaCaixas = telaCaixa.VisualizarRegistros(TipoVisualizacao.Pesquisando);
 
-            
-            
+            if (verificaCaixas == false)
+            {
+                TelaPrincipal tela = new TelaPrincipal();
+                tela.ObterTelaBase();
+            }
+
+
 
             Console.Write("\nDigite o número da caixa: ");
             int idCaixa = Convert.ToInt32(Console.ReadLine());

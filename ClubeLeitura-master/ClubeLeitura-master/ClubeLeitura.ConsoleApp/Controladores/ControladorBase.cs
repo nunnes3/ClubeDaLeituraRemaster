@@ -55,7 +55,7 @@ namespace ClubeLeitura.ConsoleApp.Controladores
             {
                 
 
-                if (id != null && id == i)
+                if ( id == i)
                 {
                     int registroAnterior = i - 1; 
                     registros[registroAnterior] = null;
